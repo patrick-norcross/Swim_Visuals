@@ -69,6 +69,7 @@ df_knighte['change_z5'].fillna(0,inplace=True)
 #APP WITH TABS (THINK OF MORE VISUALS TO ADD TO EACH TAB FOR EACH PERSON)
 
 app = dash.Dash(__name__)   #initialising dash app
+server = app.server
 
 def zonetime1():
     fig1 = go.Figure([go.Scatter(x = df_san['date'], y = df_san.iloc[:,3], name = 5),
