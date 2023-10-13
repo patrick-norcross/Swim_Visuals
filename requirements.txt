@@ -1,2 +1,3 @@
-dash==2.6.8
+dash
 pandas
+plotly
