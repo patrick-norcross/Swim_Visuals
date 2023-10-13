@@ -1,12 +1,8 @@
 import pandas as pd
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 import dash
 from dash import dcc, Input, Output, html
 import plotly.graph_objects as go
-import plotly.express as px
 
 #https://docs.google.com/spreadsheets/d/1EbwSzErok2FeK3elyr9y9igBYiQlkQoNWjgUtCB01y4/edit#gid=2117964050
 
